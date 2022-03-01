@@ -7,7 +7,7 @@ def script
   loop do
     puts "Print age or \"-1\" for exit"
     age = gets.to_i
-    if age == 1
+    if age == -1
       puts "Ur print -1! Program is closed\n"
       break
     end
